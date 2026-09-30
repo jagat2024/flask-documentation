@@ -4,7 +4,7 @@ A practical and beginner-friendly documentation of Flask, covering everything fr
 
 ## 📚 Contents
 
-* [Flask Basics](./01-flask-basics/notes.md)
+* [Flask Basics](./01-Flask-basics/notes.md)
 * [Project Structure](./02-project-structure/notes.md)
 * [Routing](./03-routing/notes.md)
 * [Templates & Jinja](./04-templates-jinja/notes.md)
