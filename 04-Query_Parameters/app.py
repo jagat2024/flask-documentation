@@ -7,6 +7,7 @@ def home():
 @app.route("/search")
 def search():
     name=request.args.get("name","Guest")
-    return f"hello {name}"
+    course=request.args.get("course","unknown")
+    return f"hello {name} u are stuyding {course}"
 if __name__=="__main__":
     app.run(debug=True)
