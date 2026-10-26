@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello world</title>
+</head>
+<body>
+    <h1>
+        Hello {{name}}
+    </h1>
+    <p>
+        Course: {{course}}
+        City: {{city}}
+        <h3>hey!! {{name | upper}} u r studying {{course}}</h3>
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad porro eaque quisquam qui nulla delectus autem quam molestias eius debitis provident officia aut odit, odio modi nostrum architecto explicabo cum.
+    </p>
+
+  <h1>
+    original price
+  </h1>
+  <p>
+    price: {{price}}
+  </p>
+  <h4>GST price</h4>
+  <p>
+    Total Price : {{price+(0.18*price)}}
+  </p>
+  <h1>Conditional rendering with for loop </h1>
+  <body>
+    <p>Courses: 
+        <ul>
+            {% for course in courses %}
+                <li>{{course}}</li>
+            {% endfor %}
+        </ul>
+    </p>
+  </body>
+  
+</body>
+</html>
